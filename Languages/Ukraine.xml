@@ -1,0 +1,29 @@
+﻿<APPLANG>
+  <FILEMANAGER>
+    <DESCRIPTION>Start Directory / Show Hidden System Files</DESCRIPTION>
+    <CREATED>Created:</CREATED>
+    <MODIFIED>Modified:</MODIFIED>
+    <SIZE>Size:</SIZE>
+    <DISPLAYNAME>ПРОВІДНИК</DISPLAYNAME>
+    <TITLE>ПРОВІДНИК</TITLE>
+    <OVERWRITEFILE>ПЕРЕЗАПИСАТИ ІСНУЮЧИЙ ФАЙЛ?</OVERWRITEFILE>
+    <DIRECTORYALREADYEXISTS>КАТАЛОГ ВЖЕ ІСНУЄ. ПЕРЕЗАПИСАТИ ФАЙЛ?</DIRECTORYALREADYEXISTS>
+    <DELETEFOLDER>Ви впевнені, що хочете видалити обрану теку і її вміст?</DELETEFOLDER>
+    <DELETEFILE>Ви впевнені, що хочете видалити обраний файл?</DELETEFILE>
+    <ENTERDIRECTORY>ВВЕДІТЬ КАТАЛОГ ДЛЯ ПЕРЕГЛЯДУ</ENTERDIRECTORY>
+    <CREATEDIRECTORY>ВВЕДІТЬ ІМ'Я ТЕКИ</CREATEDIRECTORY>
+    <RENAMEFILE>ВВЕДІТЬ НОВЕ ІМ'Я ФАЙЛУ</RENAMEFILE>
+    <RENAMEFOLDER>ВВЕДІТЬ НОВЕ ІМ'Я ТЕКИ</RENAMEFOLDER>
+    <INVALIDPATH>НЕВІРНИЙ ШЛЯХ ДО КАТАЛОГУ</INVALIDPATH>
+    <DIRECTORYEXISTS>КАТАЛОГ УЖЕ ІСНУЄ</DIRECTORYEXISTS>
+    <FILEEXISTS>ФАЙЛ З ТАКИМ ІМ'ЯМ ВЖЕ ІСНУЄ</FILEEXISTS>
+  </FILEMANAGER>
+  <SETUP>
+    <HEADER>ПРОВІДНИК</HEADER>
+    <LABEL2>ВІДРИТИ КАТАЛОГ</LABEL2>
+    <LABEL5>ВІДОБРАЖАТИ ПРИХОВАНІ ФАЙЛИ</LABEL5>
+    <LABEL6>ВІДОБРАЖАТИ СИСТЕМНІ ФАЙЛИ</LABEL6>
+    <BUTTON2TEXT>ВВЕДІТЬ КАТАЛОГ ДЛЯ ПОЧАТКУ ПЕРЕГЛЯДУ</BUTTON2TEXT>
+    <FILENOTFOUND>КАТАЛОГ НЕ ЗНАЙДЕНО</FILENOTFOUND>
+  </SETUP>
+</APPLANG>

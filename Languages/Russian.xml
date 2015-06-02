@@ -1,0 +1,29 @@
+﻿<APPLANG>
+  <FILEMANAGER>
+    <DESCRIPTION>Каталог / Показывать скрытые файлы</DESCRIPTION>
+    <CREATED>Создано:</CREATED>
+    <MODIFIED>Изменен:</MODIFIED>
+    <SIZE>Размер:</SIZE>
+    <DISPLAYNAME>ПРОВОДНИК</DISPLAYNAME>
+    <TITLE>ПРОВОДНИК</TITLE>
+    <OVERWRITEFILE>ПЕРЕЗАПИСАТЬ СУЩЕСТВУЮЩИЙ ФАЙЛ?</OVERWRITEFILE>
+    <DIRECTORYALREADYEXISTS>КАТАЛОГ УЖЕ СУЩЕСТВУЕТ. ПЕРЕЗАПИСАТЬ ФАЙЛ?</DIRECTORYALREADYEXISTS>
+    <DELETEFOLDER>ВЫ УВЕРЕНЫ, ЧТО ХОТИТЕ УДАЛИТЬ ВЫБРАННУЮ ПАПКУ И ЕЕ СОДЕРЖИМОЕ?</DELETEFOLDER>
+    <DELETEFILE>ВЫ УВЕРЕНЫ, ЧТО ХОТИТЕ УДАЛИТЬ ВЫБРАННЫЙ ФАЙЛ?</DELETEFILE>
+    <ENTERDIRECTORY>ВВЕДИТЕ КАТАЛОГ ДЛЯ ПРОСМОТРА</ENTERDIRECTORY>
+    <CREATEDIRECTORY>ВВЕДИТЕ ИМЯ ПАПКИ</CREATEDIRECTORY>
+    <RENAMEFILE>ВВЕДИТЕ НОВОЕ ИМЯ ФАЙЛА</RENAMEFILE>
+    <RENAMEFOLDER>ВВЕДИТЕ НОВОЕ ИМЯ ПАПКИ</RENAMEFOLDER>
+    <INVALIDPATH>НЕВЕРНЫЙ ПУТЬ К КАТАЛОГУ</INVALIDPATH>
+    <DIRECTORYEXISTS>КАТАЛОГ УЖЕ СУЩЕСТВУЕТ</DIRECTORYEXISTS>
+    <FILEEXISTS>ФАЙЛ С ТАКИМ ИМЕНЕМ УЖЕ СУЩЕСТВУЕТ</FILEEXISTS>
+  </FILEMANAGER>
+  <SETUP>
+    <HEADER>ПРОВОДНИК</HEADER>
+    <LABEL2>ОТКРЫТЬ КАТАЛОГ</LABEL2>
+    <LABEL5>ПОКАЗЫВАТЬ СКРЫТЫЕ ФАЙЛЫ</LABEL5>
+    <LABEL6>ПОКАЗАТЬ СИСТЕМНЫЕ ФАЙЛЫ</LABEL6>
+    <BUTTON2TEXT>ВВЕДИТЕ КАТАЛОГ ДЛЯ НАЧАЛА ПРОСМОТРА</BUTTON2TEXT>
+    <FILENOTFOUND>КАТАЛОГ НЕ НАЙДЕН</FILENOTFOUND>
+  </SETUP>
+</APPLANG>

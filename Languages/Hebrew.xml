@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<APPLANG>
+  <FILEMANAGER>
+    <DESCRIPTION>כתובת התחלה / הראה קבצי מערכת נסתרים</DESCRIPTION>
+    <CREATED>נוצר:</CREATED>
+    <MODIFIED>נערך:</MODIFIED>
+    <SIZE>גודל:</SIZE>
+    <DISPLAYNAME>מנהל קבצים</DISPLAYNAME>
+    <TITLE>מנהל קבצים</TITLE>
+    <OVERWRITEFILE>העבר על הקובץ הקיים?</OVERWRITEFILE>
+    <DIRECTORYALREADYEXISTS>הכתובת כבר קיימת. להעביר על הקבצים הקיימים?</DIRECTORYALREADYEXISTS>
+    <DELETEFOLDER>האם אתה בטוח שברצונך למחוק את התיקייה ואת הקבצים שבתוכה?</DELETEFOLDER>
+    <DELETEFILE>האם אתה בטוח שברצונך למחוק את הקובץ?</DELETEFILE>
+    <ENTERDIRECTORY>הכנס כתובת לסיור</ENTERDIRECTORY>
+    <CREATEDIRECTORY>הכנס שם לתיקייה</CREATEDIRECTORY>
+    <RENAMEFILE>הכנס שם לקובץ</RENAMEFILE>
+    <RENAMEFOLDER>הכנס שם חדש לתיקייה</RENAMEFOLDER>
+    <INVALIDPATH>כתובת לא חוקית</INVALIDPATH>
+    <DIRECTORYEXISTS>כתובת כבר קיימת</DIRECTORYEXISTS>
+    <FILEEXISTS>קובץ עם שם זה כבר קיים</FILEEXISTS>
+  </FILEMANAGER>
+  <SETUP>
+    <HEADER>מנהל קבצים</HEADER>
+    <LABEL2>התחל כתובת</LABEL2>
+    <LABEL5>הראה קבצים מוסתרים</LABEL5>
+    <LABEL6>הראה קבצי מערכת</LABEL6>
+    <BUTTON2TEXT>הכנס כתובת שממנה יתחיל הסיור</BUTTON2TEXT>
+    <FILENOTFOUND>כתובת לא נמצאה</FILENOTFOUND>
+  </SETUP>
+</APPLANG>

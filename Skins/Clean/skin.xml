@@ -1,0 +1,62 @@
+﻿<SKIN id="Clean" width="800" height="480" comment="FileManager Plugin">
+  <FONTCLASSES>
+  <FONTCLASS id="Address" font="Arial" case="None" color="#FFFFFF" color2="#000000" size="12" style="Bold" align="Left" wrap="True" />
+  </FONTCLASSES>
+  <IMAGES>
+    <IMAGE id="FileManagerOff" path="filemanager_off.png" />
+    <IMAGE id="FileManagerDown" path="filemanager_down.png" />
+  </IMAGES>
+  <BUTTONIMAGES>
+    <BUTTONIMAGE id="AddOff" path="buttonimages/btn_add_off.png" />
+    <BUTTONIMAGE id="AddDown" path="buttonimages/btn_add_down.png" />
+    <BUTTONIMAGE id="RemoveOff" path="buttonimages/btn_remove_off.png" />
+    <BUTTONIMAGE id="RemoveDown" path="buttonimages/btn_remove_down.png" />
+  </BUTTONIMAGES>
+  <SECTIONS>
+    <SECTION id="FileManager"  effect="ToApp" bounds="0;0;800;480" off="FileManagerOff" down="FileManagerDown">
+      <CONTROLS>
+        <CONTROL type="Label" id="Title" bounds="144;17;196;18" fontclass="MediaManagerLabel" fontstyle="style:bold;case:Upper;color:#BBBBBB" text="AppLang.FileManager.Title" />
+        <CONTROL type="Button" id="Address" bounds="145;32;480;35" effect="" cmlaction="Centrafuse.FileManager.Address" fontclass="Address" tabindex="1" enabletext="True" enabled="True" />
+        <CONTROL type="Label" id="Pages" bounds="143;67;250;19" fontclass="MediaManagerLabel" fontstyle="size:18" text="AppLang.Email.Header" />
+        <CONTROL type="DynButton" id="CreateFolder" cmlaction="Centrafuse.FileManager.Create" bounds="622;10;79;77" effect="" fontclass="Standard14" textenable="false" text="" tabindex="5" enabled="true" off="AddOff" down="AddDown" />
+        <CONTROL type="DynButton" id="Delete" cmlaction="Centrafuse.FileManager.Delete" bounds="700;10;81;77" effect="" fontclass="Standard14" textenable="false" text="" tabindex="6" enabled="true" off="RemoveOff" down="RemoveDown" />
+        <CONTROL type="Button" id="Cut" bounds="10;102;113;68" effect="" cmlaction="Centrafuse.FileManager.Cut" fontclass="Button20" tabindex="7" enabled="True" />
+        <CONTROL type="Button" id="Copy" bounds="10;171;113;68" effect="" cmlaction="Centrafuse.FileManager.Copy" fontclass="Button20" tabindex="8" enabled="True" />
+        <CONTROL type="Button" id="Paste" bounds="10;240;113;68" effect="" cmlaction="Centrafuse.FileManager.Paste" fontclass="Button20" tabindex="9" enabled="True" />
+        <CONTROL type="Button" id="Rename" bounds="10;309;113;68" effect="" cmlaction="Centrafuse.FileManager.Rename" fontclass="Button20" tabindex="10" enabled="True" />
+        <CONTROL type="Button" id="PageUp" bounds="709;87;80;190" effect="" cmlaction="Centrafuse.FileManager.PageUp" forcemouseup="true" fontclass="Button20" tabindex="13" enabled="True" />
+        <CONTROL type="Button" id="PageDown" bounds="709;278;80;191" effect="" cmlaction="Centrafuse.FileManager.PageDown" forcemouseup="true" fontclass="Button20" tabindex="14" enabled="True" />
+        <CONTROL type="Button" id="Close" bounds="10;402;113;68" effect="" cmlaction="Centrafuse.FileManager.Close" fontclass="Button20" text="Centrafuse.AppLang.Buttons.Close" enabletext="False" tabindex="11" enabled="True" />
+        <CONTROL type="Button" id="Back" bounds="10;10;113;68" effect="" cmlaction="Centrafuse.FileManager.Back" fontclass="Button20" tabindex="5" enabled="True" />
+        <CONTROL type="AdvancedList" id="MainPanel" bounds="134;87;574;382">
+          <LAYOUT>
+            <TEMPLATES>
+              <TEMPLATE id="default" selectable="true" layout="Stacked" baseSize="575;382" scrollbarStyleId="Scrollbar">
+                <ITEMGROUP type="Default" size="575;64">
+                  <ITEM id="DisplayName" type="Text" position="5;3" size="500;64" dataSource="DisplayName" styleId="FileBrowser"  />
+                  <ITEM id="Folder" type="Image" position="531;18" size="24;27" dataSource="isdir{folder_icon_[value].png}" styleId="Image.Fit" />
+                  <ITEM id="Info" linkId="Info" type="Image" position="510;9" size="41;45" dataSource="isdir{info_icon_[value].png}" styleId="Image.Fit" />
+                  <ITEM id="Line" type="Image" position="0;63" size="563;1" dataSource="cache:Separator.png" styleId="Image.Fit" enabled="true" />
+                </ITEMGROUP>
+                <ITEMGROUP type="Selected" size="575;64">
+                  <ITEM id="Backgnd" type="Image" position="0;0" size="563;64" dataSource="cache:SelectionBar.png" styleId="Image.Fit" />
+                  <ITEM id="Folder" type="Image" position="531;18" size="24;27" dataSource="isdir{folder_icon_down_[value].png}" styleId="Image.Fit" />
+                  <ITEM id="Info" linkId="Info" type="Image" position="510;9" size="41;45" dataSource="isdir{info_icon_down_[value].png}" styleId="Image.Fit" />
+                  <ITEM id="DisplayName" type="Text" position="5;3" size="500;64" dataSource="DisplayName" styleId="FileBrowser.Hi"  />
+                  <ITEM id="Line" type="Image" position="0;63" size="563;1" dataSource="cache:Separator.png" styleId="Image.Fit" enabled="true" />
+                </ITEMGROUP>
+              </TEMPLATE>
+            </TEMPLATES>
+            <STYLES include=".\Skins\Clean\listview\CommonStyles.xml">
+              <STYLE id="FileBrowser" color="#ffffff" hAlignment="Left" vAlignment="Middle" leftIndent="0" rightIndent="0" fontId="8" trimming="true" />
+              <STYLE id="FileBrowser.Hi" color="#000000" hAlignment="Left" vAlignment="Middle" leftIndent="0" rightIndent="0" fontId="8" trimming="true"/>
+            </STYLES>
+            <FONTS include=".\Skins\Clean\listview\CommonFonts.xml">
+              <FONT id="8" name="Utsaah" size="30" style="Regular" />
+            </FONTS>
+          </LAYOUT>
+        </CONTROL>
+      </CONTROLS>
+    </SECTION>
+  </SECTIONS>
+</SKIN>
